@@ -37,8 +37,8 @@ Métricas principales desarrolladas para el panel:
   ```dax
   Total Tickets = COUNT(servicedesk_tickets[TicketID])
 * **% Cumplimiento SLA**
-  ```dax
-% Cumplimiento SLA = DIVIDE(
+% Cumplimiento SLA = 
+DIVIDE(
     CALCULATE(
         COUNT(servicedesk_tickets[TicketID]), 
         servicedesk_tickets[EstadoSLA] = "Cumplido"
@@ -47,5 +47,4 @@ Métricas principales desarrolladas para el panel:
     0
 )
 * **Tiempo promedio de resolución**
-  ```dax
 Tiempo Prom_Resolucion = AVERAGE(servicedesk_tickets[TiempoResolucion_Horas])
