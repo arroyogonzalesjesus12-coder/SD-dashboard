@@ -6,7 +6,7 @@ Un panel interactivo diseñado en Power bi para monitorear, analizar y optimizar
 
 ##  Vista Previa del Dashboard
 
-(docs/dashboard_preview.png)
+![Vista previa](docs/dashboard_preview.png)
 
 ---
 
