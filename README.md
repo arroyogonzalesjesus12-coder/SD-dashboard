@@ -29,7 +29,7 @@ Un panel interactivo diseñado en Power bi para monitorear, analizar y optimizar
 
 ---
 
-## Medidas Clave (DAX)
+## DAX
 
 Métricas principales desarrolladas para el panel:
 
