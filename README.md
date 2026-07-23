@@ -38,8 +38,7 @@ Métricas principales desarrolladas para el panel:
   Total Tickets = COUNT(servicedesk_tickets[TicketID])
 * **% Cumplimiento SLA**
   ```dax
-% Cumplimiento SLA = 
-DIVIDE(
+% Cumplimiento SLA = DIVIDE(
     CALCULATE(
         COUNT(servicedesk_tickets[TicketID]), 
         servicedesk_tickets[EstadoSLA] = "Cumplido"
